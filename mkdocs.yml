@@ -3,3 +3,6 @@ site_name: Self-Corrected Image Generation with Explainable Latent Rewards
 # theme:
 #   palette:
 #     primary: indigo
+
+extra_css:
+  - stylesheets/extra.css

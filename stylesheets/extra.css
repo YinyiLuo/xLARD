@@ -1,0 +1,47 @@
+/* Hide left sidebar (MkDocs default theme) */
+.col-md-3 {
+    display: none;
+}
+
+/* Make main content full width */
+.col-md-9[role="main"] {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+/* Large bold title */
+.page-title {
+    font-size: 2.6rem;
+    font-weight: 900;
+    color: #000;
+    line-height: 1.2;
+    text-align: center;
+    margin: 0 0 1rem;
+}
+
+/* Authors under title */
+.page-authors {
+    text-align: center;
+    margin: 0 0 1.25rem;
+    font-size: 1.15rem;
+    color: #111;
+}
+
+.page-authors sup {
+    font-size: 0.8em;
+}
+
+/* 90% width white background */
+html, body {
+    background: #fff;
+}
+.container {
+    max-width: 80%;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+/* Global font scale */
+body {
+    font-size: 18px;
+}
